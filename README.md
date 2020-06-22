@@ -1,15 +1,10 @@
 ﻿# Framework for C#, VB.NET WinForms 
 
 # Guna.UI2 WinForms [new]
-Version: 2.0.0.4 
-Update: May 17 2020
-Controls & Components: 53
-
-# Guna.UI WinForms [old]
-Version: 1.9.0.1 
-Update: March 23 2020
-Controls & Components: 60
-
+Version: 2.0.0.5
+Update: June 22 2020
+Controls & Components: 50+
+ 
 📌 Website
 Link ►  https://gunaframework.com
 
@@ -19,6 +14,8 @@ Link ►  https://youtu.be/N5I-LcdVv34
 Guna.UI controls are DLL driven tools to help you build awesome desktop application interfaces. It guarantees great user experience in your apps and reduces development time. The DLLs are installed in your .NET environment and is built on top of WinForms. It enables developers to drag and drop hence faster coding
 
 # Guna.UI2 - Bug Fixed
+* Fixed - GotFocus and LostFocus events in controls: Guna2TextBox and Guna2DateTimePicker
+
 * Fixed - Bug when the RihtToLeft property was given the value 'Yes' in controls: Guna2RadioButton, Guna2CheckBox and Guna2TextBox
 
 * Fixed - Control Tasks did not work with more than 10+ controls.
